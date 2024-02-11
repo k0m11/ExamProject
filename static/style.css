@@ -127,7 +127,7 @@ a {
     margin-top: 50px;
     font-size: 28px;
     color: #b9b9b9;
-    font-family: Prato;
+    font-family: Raleway;
 }
 
 .about-me {
@@ -144,6 +144,7 @@ a {
     margin: 40px;
     font-size: 20px;
     color: rgb(173, 173, 173);
+    font-family: Raleway;
 }
 
 /* This is for Introduction.html */
@@ -351,4 +352,77 @@ a {
 #button-next-text:hover {
     font-size: 30px;
     transition: 0.2s;
+}
+
+@media (max-width: 1000px) {
+    #central-span {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    #central-span2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    #central-span3 {
+        font-size: 16px;
+    }
+
+    .header {
+        height: 40px;
+    }
+
+    #name {
+        font-size: 26px;
+    }
+
+    #right {
+        margin-inline: 30px;
+        margin-top: 10px;
+        font-size: 24px;
+    }
+
+    #right:hover {
+        transition: 0.2s;
+        font-size: 26px;
+        border-bottom: solid;
+        border-width: 2px;
+    }
+    
+    #name:hover {
+        transition: 0.2s;
+        font-size: 28px;
+        border-bottom: solid;
+        border-width: 2px;
+    }
+
+    #button_black {
+        margin-top: 40px;
+        width: 180px;
+        height: 60px;
+    }
+
+    #button-text {
+        font-size: 30px;
+    }
+
+    #button_black:hover {
+        transition: 0.2s;
+        width: 160px;
+    }
+
+    #button-text:hover {
+        transition: 0.2s;
+        font-size: 27px;
+    }
+
+    .container1 {
+        padding-bottom: 100px;
+    }
+
+    .about-me p {
+        margin-top: 30px;
+        font-size: 18px;
+    }
 }
