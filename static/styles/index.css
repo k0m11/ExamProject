@@ -228,7 +228,7 @@ a {
 
 @media (max-width: 540px) { /*________________________MAX WIDTH 1000________________________*/
     .container1 {
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     #central-span {
@@ -301,7 +301,7 @@ a {
     }
 
     .container1 {
-        padding-bottom: 100px;
+        padding-bottom: 40px;
     }
 
     .about-me p {
@@ -312,14 +312,14 @@ a {
     }
 
     .about-me-section {
-        height: 530px;
-        border-radius: 50% 50% 0 0;
+        height: 330px;
+        border-radius: 50%;
     }
 
     .about-me {
         margin-top: 70px;
         height: auto;
-        width: 50%;
+        width: 60%;
     }
 
     .about-me-section span {
@@ -327,4 +327,7 @@ a {
         font-size: 24px;
     }
 
+    .container1 img {
+        
+    }
 }
