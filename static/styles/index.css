@@ -227,14 +227,19 @@ a {
 }
 
 @media (max-width: 540px) { /*________________________MAX WIDTH 1000________________________*/
+    
+    .container1 img {
+        width: 65%;
+    }
+
     .container1 {
         margin-top: 30px;
     }
 
     #central-span {
         margin-left: 20px;
-        font-size: 30px;
-        margin-bottom: 15px;
+        font-size: 26px;
+        margin-bottom: 60px;
     }
 
     #central-span2 {
@@ -325,9 +330,5 @@ a {
     .about-me-section span {
         margin-top: 20px;
         font-size: 24px;
-    }
-
-    .container1 img {
-        
     }
 }
