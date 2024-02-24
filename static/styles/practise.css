@@ -257,6 +257,18 @@ a {
     border-radius: 0 8px 8px 0;
 }
 
+#right:hover {
+    transition: 0.2s;
+    font-size: 34px;
+    border-bottom: solid;
+}
+
+#name:hover {
+    transition: 0.2s;
+    font-size: 34px;
+    border-bottom: solid;
+}
+
 @media (max-width: 540px) {
     .header {
         height: 30px;

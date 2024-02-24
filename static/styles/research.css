@@ -175,6 +175,18 @@ a {
     transition: 0.2s;
 }
 
+#right:hover {
+    transition: 0.2s;
+    font-size: 34px;
+    border-bottom: solid;
+}
+
+#name:hover {
+    transition: 0.2s;
+    font-size: 34px;
+    border-bottom: solid;
+}
+
 @media (max-width: 540px) {
     .header {
         height: 30px;
