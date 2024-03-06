@@ -47,7 +47,7 @@ a {
 
 .container1 {
     margin-top: 100px;
-    padding-bottom: 200px;
+    padding-bottom: 280px;
 }
 
 #central-span {
@@ -82,7 +82,7 @@ a {
     height: 70px;
     border-radius: 20px;
     border: 1px solid;
-    background: #3e3e3e;
+    background: #000000;
     color: white;
     margin-left: 15%;
     margin-top: 60px;
@@ -92,38 +92,54 @@ a {
 }
 
 .about-me-section {
-    justify-content: center;
-    text-align: center;
     display: flex;
-    background-color: #3E3E3E;
+    background-color: #000000;
     width: 100%;
-    height: 400px;
-    border-radius: 50% 50% 0 0;
+    height: 800px;
 }
 
-.about-me-section span {
-    height: 50px;
-    margin-top: 20px;
-    font-size: 32px;
-    color: #b9b9b9;
-    font-family: Raleway;
+.about-me-img {
+    width: 40%;
+}
+
+.about-me-img img {
+    height: 800px;
+    width: 180%;
 }
 
 .about-me {
-    margin-top: 100px;
-    position: absolute;
-    border: solid;
-    border-width: 1px;
-    width: 40%;
-    height: auto;
-    border-color: #696969;
+    margin-top: 150px;
+    display: block;
 }
 
 .about-me p {
-    margin: 40px;
-    font-size: 20px;
-    color: rgb(173, 173, 173);
+    text-align: center;
+    font-size: 56px;
+    color: rgb(255, 255, 255);
     font-family: Raleway;
+}
+
+.about-me span {
+    font-size: 28px;
+    color: #b9b9b9;
+    font-family: Raleway;
+    position: absolute;
+    max-width: 700px;
+}
+
+.links {
+    margin-top: 300px;
+    display: flex;
+}
+
+.links p {
+    color: rgb(95, 95, 95);
+    font-size: 26px;
+}
+
+.links img {
+    width: 70px;
+    margin-inline: 25px;
 }
 
 #button_black:hover {
