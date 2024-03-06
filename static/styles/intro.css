@@ -141,24 +141,17 @@ a {
     margin-left: 80%;
     margin-top: 60px;
     margin-bottom: 20px;
-}
-
-#button-next-text {
-    color: white;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
     font-family: Raleway;
 }
 
 #button-next:hover {
     transition: 0.2s;
-    background-color: rgb(80, 80, 80);
+    background-color: white;
+    color: black;
     width: 140px;
-}
-
-#button-next-text:hover {
-    font-size: 30px;
-    transition: 0.2s;
+    cursor: pointer;
 }
 
 #right:hover {
