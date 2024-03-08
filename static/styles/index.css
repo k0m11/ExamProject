@@ -184,7 +184,7 @@ a {
         height: 40px;
     }
 
-    #name {
+    #name a{
         font-size: 26px;
     }
 
@@ -195,7 +195,7 @@ a {
 
     #right:hover {
         transition: 0.2s;
-        font-size: 26px;
+        font-size: 25px;
         border-bottom: solid;
         border-width: 2px;
     }
@@ -208,23 +208,15 @@ a {
     }
 
     #button_black {
+        font-size: 30px;
         margin-top: 40px;
         width: 180px;
         height: 60px;
     }
 
-    #button-text {
-        font-size: 30px;
-    }
-
     #button_black:hover {
         transition: 0.2s;
-        width: 160px;
-    }
-
-    #button-text:hover {
-        transition: 0.2s;
-        font-size: 27px;
+        width: 170px;
     }
 
     .container1 {
@@ -232,8 +224,41 @@ a {
     }
 
     .about-me p {
+        margin-top: 0px;
+        font-size: 46px;
+    }
+
+    .about-me span {
+        font-size: 20px;
+        max-width: 500px;
+    }
+
+    .about-me-img {
+        width: 40%;
+        margin-right: 2cqw;
+    }
+    
+    .about-me-img img {
+        height: 500px;
+        width: 190%;
+    }
+
+    .about-me-section {
+        height: 500px;
+    }
+
+    .links img {
+        width: 40px;
+        margin-inline: 15px;
+    }
+
+    .links p {
         margin-top: 10px;
         font-size: 18px;
+    }
+
+    .links {
+        margin-top: 220px;
     }
 
     .container1 span {
@@ -249,6 +274,7 @@ a {
 
     .container1 {
         margin-top: 30px;
+        padding-top: 50px;
     }
 
     #central-span {
@@ -269,13 +295,16 @@ a {
     }
 
     .header {
-        height: 30px;
+        height: 20px;
     }
 
     #name {
-        margin-left: 10px;
+        margin-left: 30px;
+    }
+
+    #name a {
         font-size: 18px;
-        margin-right: 15%;
+        line-height: 50px;
     }
 
     #right {
@@ -283,6 +312,7 @@ a {
         margin-inline: 15px;
         font-size: 14px;
         margin-top: 5px;
+        line-height: 40px;
     }
 
     #right:hover {
@@ -295,29 +325,22 @@ a {
     #name:hover {
         transition: 0.2s;
         font-size: 19px;
-        border-bottom: solid;
+        border-bottom: none;
+        text-decoration: underline;
         border-width: 1px;
     }
 
     #button_black {
+        font-size: 20px;
         margin-left: 15%;
         margin-top: 30px;
         width: 120px;
         height: 40px;
     }
 
-    #button-text {
-        font-size: 22px;
-    }
-
     #button_black:hover {
         transition: 0.2s;
-        width: 130px;
-    }
-
-    #button-text:hover {
-        transition: 0.2s;
-        font-size: 21px;
+        width: 110px;
     }
 
     .container1 {
@@ -325,10 +348,7 @@ a {
     }
 
     .about-me p {
-        margin-inline: 10px;
-        margin-top: 10px;
-        font-size: 16px;
-        margin-bottom: 10px;
+        font-size: 20px;
     }
 
     .about-me-section {
@@ -342,8 +362,32 @@ a {
         width: 60%;
     }
 
-    .about-me-section span {
-        margin-top: 20px;
-        font-size: 24px;
+    .about-me span {
+        font-size: 12px;
+        margin-left: 30px;
     }
+
+    .links p {
+        margin-top: 0px;
+        font-size: 12px;
+    }
+
+    .links {
+        margin-top: 130px;
+        margin-left: 30px;
+    }
+
+    .links img {
+        width: 25px;
+    }
+
+    .about-me-img img {
+        height: 250px;
+        width: 240%;
+    }
+
+    .about-me-section {
+        height: 250px;
+    }
+
 }
